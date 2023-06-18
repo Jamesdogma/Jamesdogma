@@ -33,6 +33,10 @@ jobs:
       - name: Run a multi-line script
         run: |
           echo Add other actions to build,
-          echo test, and deploy your project.
+class GetLatestNewsWithAuthorsUseCase(
+  private val newsRepository: NewsRepository,
+  private val authorsRepository: AuthorsRepository,
+  private val formatDateUseCase: FormatDateUseCase
+) { /* ... */ }          echo test, and deploy your project. 
 
 
